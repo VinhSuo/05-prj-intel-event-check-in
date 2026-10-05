@@ -1,6 +1,6 @@
 // Needed AOM elements
 const form =  document.getElementById("checkInForm");
-const name = document.getElementById("attendeeName");
+const nameInput = document.getElementById("attendeeName");
 const teamSelect = document.getElementById("teamSelect");
 
 
@@ -38,7 +38,9 @@ form.addEventListener("submit", function(event) {
   const message = ('Welcome: ' + name + ' from ' + teamName + '!');
   console.log(message);
 
+
   form.reset();
+
 
 })
     
