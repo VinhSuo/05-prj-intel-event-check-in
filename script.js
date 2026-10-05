@@ -19,7 +19,7 @@ form.addEventListener("submit", function(event) {
   const teamName = teamSelect.selectedOptions[0].text;
 
 
-  console.log(name, team, teamName);
+  console.log(name, teamName);
 
   //Increment count
 
@@ -28,7 +28,7 @@ form.addEventListener("submit", function(event) {
 
   //Upgrade progree bar
   const percentage = Math.round((count / maxCount) * 100) + "%";
-  console.log('Progress: ${percentage} ');
+  console.log('Progress: ' + percentage);
 
   //Update team counter
   const teamCounter = document.getElementById(team + "Count");
