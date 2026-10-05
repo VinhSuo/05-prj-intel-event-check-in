@@ -19,7 +19,7 @@ form.addEventListener("submit", function(event) {
   const teamName = teamSelect.selectedOptions[0].text;
 
 
-  console.log(name, team);
+  console.log(name, team, teamName);
 
   //Increment count
 
